@@ -16,8 +16,8 @@ Applications of variational Autoencoder:
 
 
 sources:
-https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73
-https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf
-http://alexadam.ca/ml/2017/05/05/keras-vae.html
+https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73  
+https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf  
+http://alexadam.ca/ml/2017/05/05/keras-vae.html  
 https://www.jeremyjordan.me/variational-autoencoders/
 
