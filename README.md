@@ -2,7 +2,7 @@
 A variational autoencoder is similar to a regular autoencoder except that it is a generative model. This “generative” aspect stems from placing an additional constraint on the loss function such that the latent space is spread out and doesn’t contain dead zones where reconstructing an input from those locations results in garbage. By doing this, we can randomly sample a vector from the latent space and hopefully create a meaninful decoded output from it.  
 The “variational” part comes from the fact that we’re trying to approximate the posterior distribution pθ(z|x) with a variational distribution qϕ(z|x). Thus, the encoder outputs parameters to this variational distribution which is just a multivariate Gaussian distribution, and the latent representation is obtained by then sampling this distribution. The decoder then takes the latent representation and tries to reconstruct the original input from it.  
 
-<img name="image/VAE_architecturee.png" width=600 height=700>  
+<img name="image/VAE_architecture.png" width=600 height=700>  
 
 Applications of variational Autoencoder: 
 * Dimensionality Reduction
