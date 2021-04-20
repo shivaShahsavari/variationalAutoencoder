@@ -13,7 +13,11 @@ Applications of variational Autoencoder:
 * Sequence to sequence prediction
 * Recommendation system
 
+## Variational Autoencoder in Text  
+In this sub project, VAE architecture is applied on IMDB dataset of Keras. The movie reviews are reconstructed by VAE and simultaneously sentiments are predicted.
 
+**Note 1: Incosistency error happened between Tensorflow 2.4.1 and Numpy 1.20. So, downgrade your Numpy to 1.18.5  
+Note 2: By using keras 2.4.3, I couldn't add custom loss function because of this version. So, I simply used tf.keras.losses.KLDivergence to calculate the loss.**
 
 sources:
 https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73  
