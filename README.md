@@ -27,9 +27,4 @@ The choice to have a bidirectional RNN encoder has to do with RNNs being better 
 **Note 1: Incosistency error happened between Tensorflow 2.4.1 and Numpy 1.20. So, downgrade your Numpy to 1.18.5  
 Note 2: By using keras 2.4.3, I couldn't add custom loss function because of this version. So, I simply used tf.keras.losses.KLDivergence to calculate the loss.**
 
-sources:
-https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73  
-https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf  
-http://alexadam.ca/ml/2017/05/05/keras-vae.html  
-https://www.jeremyjordan.me/variational-autoencoders/
 
