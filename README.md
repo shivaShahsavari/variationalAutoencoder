@@ -4,14 +4,17 @@ The “variational” part comes from the fact that we’re trying to approximat
 
 <img src="image/VAE_architecture.png" width="800" height="450">  
 
-Applications of variational Autoencoder: 
+Applications of variational Autoencoder:  
+* State-of-the-art results in semi-supervised learning  
 * Dimensionality Reduction
 * Image Compression
 * Image Denoising
 * Feature Extraction
 * Image generation
-* Sequence to sequence prediction
-* Recommendation system
+* draw images  
+* sequence to sequence prediction  
+* Natural Language Generation  
+* Interpolate between sentences  
 
 ## Variational Autoencoder in Text  
 In this sub project, VAE architecture is applied on IMDB dataset of Keras. The movie reviews are reconstructed by VAE and simultaneously sentiments are predicted.
