@@ -27,4 +27,8 @@ The choice to have a bidirectional RNN encoder has to do with RNNs being better 
 **Note 1: Incosistency error happened between Tensorflow 2.4.1 and Numpy 1.20. So, downgrade your Numpy to 1.18.5  
 Note 2: By using keras 2.4.3, I couldn't add custom loss function because of this version. So, I simply used tf.keras.losses.KLDivergence to calculate the loss.**
 
+Other sources for:  
+1- [Text Generation](https://github.com/NicGian/text_VAE/blob/master/text_vae.ipynb)  
+2- [New face generation](https://towardsdatascience.com/generating-new-faces-with-variational-autoencoders-d13cfcb5f0a8)  
+3- [Text similarity](https://github.com/adsieg/text_similarity/blob/master/Word2Vec%20%2B%20VAE.ipynb)  
 
