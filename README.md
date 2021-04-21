@@ -24,6 +24,10 @@ In model 3 distinct components are implemented:
 3-An RNN decoder  
 The choice to have a bidirectional RNN encoder has to do with RNNs being better able to represent the more recent parts of the input sequence in their hidden states. By using a bidirectional RNN where the hidden states are concatenated, we mitigate the issue of not being able to remember the earliest parts of the sequence.
 
+### Results after 10 epochs:
+Epoch 10/10
+200/200 [==============================] - 2918s 15s/step- val_loss: 4.2034 - val_decoded_mean_loss: 3.5274 - val_pred_loss: 0.6760 - val_decoded_mean_accuracy: 0.4202 - val_pred_accuracy: 0.5110
+
 **Note 1: Incosistency error happened between Tensorflow 2.4.1 and Numpy 1.20. So, downgrade your Numpy to 1.18.5  
 Note 2: By using keras 2.4.3, I couldn't add custom loss function because of this version. So, I simply used tf.keras.losses.KLDivergence to calculate the loss.**
 
