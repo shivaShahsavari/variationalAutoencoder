@@ -25,7 +25,7 @@ In model 3 distinct components are implemented:
 The choice to have a bidirectional RNN encoder has to do with RNNs being better able to represent the more recent parts of the input sequence in their hidden states. By using a bidirectional RNN where the hidden states are concatenated, we mitigate the issue of not being able to remember the earliest parts of the sequence.
 
 ### Summary of Model:    
-<img src="image/vae_model.png" width="800" height="450">  
+<img src="image/vae_model.png" width="800" height="600">  
 
 
 
